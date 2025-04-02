@@ -1,4 +1,4 @@
-a,b = map(int,input())
+a,b = map(int,input().split(" "))
 
 r = a+b / a-b
 
