@@ -5,5 +5,5 @@ m = s/3
 r = s - m
 
 print(s)
-print(m)
-print(r)
+print(int(m))
+print(int(r))
