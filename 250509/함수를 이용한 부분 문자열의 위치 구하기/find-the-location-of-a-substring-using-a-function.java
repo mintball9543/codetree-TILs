@@ -6,15 +6,13 @@ public class Main {
         String pattern = sc.next();
         // Please write your code here.
 
-        int M = str1.length();
-        int N = str2.length();
+        int idx = find_location(text, pattern);
 
-        for(int i = 0; i < M; i++){
-            str1[i].equals(str2[])
-        }
+        System.out.println(idx);
+
     }
 
-    // public int find_location(String str1, String str2){
-        
-    // }
+    public static int find_location(String str1, String str2){
+        return str1.indexOf(str2);
+    }
 }
